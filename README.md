@@ -2,13 +2,7 @@ Modular Neural Architecture Search
 ===
 Keras implementation of *Towards Modular Neural Architecture Search* (using tf.compat.v1 for now, but tf2 will be supported soon). The NAS approach uses NASBench to sample possible network architectures and provides a transformation function of tf1 models to keras. Two straghtforward weight sharing mechanisms (weight reuse and weight averging based on a sliding window) are integrated as well to speed up the search process.
 
-	@inproceedings{boecking2020,
-	 author    = {Lars Böcking and Patrick Philipp and Cedric Kulbach},
-	 title     = {Towards Modular Neural Architecture Search},
-	 booktitle = {Proceedings of the 1st Workshop on Neural Architecture Search co-located with the 8th International Conference on Learning Representations, ICLR\textquotesingle20},
-	 year      = {2020},
-
-Instructions:
+Instructions
 -------------
 1.  Clone this repo.
 
@@ -50,3 +44,12 @@ eval_data_set = "cifar10"
 ```
 python main.py
 ```
+
+Cite as
+-------------
+	@inproceedings{boecking2020,
+		author    = {Lars B\"ocking and Patrick Philipp and Cedric Kulbach},
+		title     = {Towards Modular Neural Architecture Search},
+		booktitle = {Proceedings of the 1st Workshop on Neural Architecture Search co-located with the 8th International Conference on Learning Representations, ICLR\textquotesingle20},
+		year      = {2020},
+	}
