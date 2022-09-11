@@ -1,0 +1,5 @@
+tensorflow
+tensorflow-datasets
+keras
+git+https://github.com/google-research/nasbench@refs/pull/29/merge
+scipy==1.9.1
